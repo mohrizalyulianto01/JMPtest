@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="welcome_everyone">Welcome Everyone</string>
+    <string name="Nama" />
+    <string name="Form_Pendaftaran">Form Pendaftaran</string>
+    <string name="Jenis_Kelamin">Jenis Kelamin</string>
+    <string name="Lokasi_Pendaftaran">Lokasi Pendaftaran</string>
+    <string name="Upload_Foto">Upload Foto</string>
+    <string-array name="Lokasi">
+        <item>Kota Yogyakarta</item>
+        <item>Bantul</item>
+        <item>Sleman</item>
+        <item>Kulon Progo</item>
+        <item>Bandung</item>
+        <item>Semarang</item>
+        <item>Surabaya</item>
+    </string-array>
+</resources>

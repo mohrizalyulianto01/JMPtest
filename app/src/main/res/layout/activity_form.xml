@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Form_Pendaftaran"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:hint="No. HP"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Jenis_Kelamin"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:text="Perempuan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="77dp"
+        android:layout_height="34dp"
+        android:text="Pria"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lokasi_Pendaftaran"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Spinner
+        android:id="@+id/lokasi_pendaftaran"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Lokasi"
+        android:padding="15dp" />
+
+
+    <TextView
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Upload_Foto"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_account_box_24" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:onClick="submit"
+            android:padding="15dp"
+            android:text="Submit" />
+    </RelativeLayout>
+
+
+</LinearLayout>
